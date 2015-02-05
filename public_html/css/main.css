@@ -1,0 +1,429 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    margin-top: 50px; /*50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+/* change the URL to a picture of your choice - the higher quality the better! */
+.business-header {
+    height: 250px;
+    margin-bottom: 40px;
+    /*padding: 10px 0 10px 10px;*/
+    background: url(../img/header.jpg) left center no-repeat;
+    background-size: contain;
+    background-color: #e7e7e7;
+    border-bottom: 1px solid #428bca;
+}
+
+/* adjust the color and text shadow to optimize legibility once you have an image set - you can also change the vertical positioning if desired  */
+.tagline {
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.featurette {
+    overflow: hidden; 
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+.radius-slike {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 1200px) {
+
+    .headline > .container > h1 {font-size: 140px;}
+    .headline > .container > h2 {font-size: 63px;}
+    .featurette-divider {margin: 50px 0;}
+    .featurette-image.pull-left {margin-right: 20px;}
+    .featurette-image.pull-right {margin-left: 20px;}
+    .featurette-heading {font-size: 35px;}
+
+}
+
+@media (max-width: 991px) {
+
+    .headline > .container > h1 {font-size: 105px;}
+    .headline > .container > h2 {font-size: 50px;}
+    .featurette-divider {margin: 40px 0;}
+    .featurette-image {max-width: 50%;}
+    .featurette-image.pull-left {margin-right: 10px;}
+    .featurette-image.pull-right {margin-left: 10px;}
+    .featurette-heading {font-size: 30px;}
+
+}
+
+@media (max-width: 768px) {
+
+    .container {margin: 0 15px;}
+    .featurette-divider {margin: 40px 0;}
+    .featurette-heading {font-size: 25px;}
+
+}
+
+
+@media (max-width: 668px) {
+
+    .headline > .container > h1 {font-size: 70px;}
+    .headline > .container > h2 {font-size: 32px;}
+    .featurette-divider {margin: 30px 0;}
+
+}
+
+@media (max-width: 640px) {
+
+    .headline {padding: 75px 0 25px 0;}
+    .headline > .container > h1 {font-size: 60px;}
+    .headline > .container > h2 {font-size: 30px;}
+
+}
+
+@media (max-width: 375px) {
+
+    .featurette-divider {margin: 10px 0;}
+    .featurette-image {max-width: 100%;}
+    .featurette-image.pull-left {margin-right: 0; margin-bottom: 10px;}
+    .featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
+
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+    margin-bottom: 15px;
+}
+
+.tooltip-social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.facebook-link a:hover {
+    color: #3b5998;
+}
+
+.linkedin-link a:hover {
+    color: #007fb1;
+}
+
+.twitter-link a:hover {
+    color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+    color: #d14836;
+}
+
+.thumb{
+    margin-bottom: 30px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+    padding: 50px 0;
+}
+
+.section-colored {
+    background-color: #e1e1e1;
+    /* change this to change the background color of a colored section */
+}
+
+
+
+
+/*Back to top button*/
+
+
+
+#back-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+
+
+
+
+/*====== Clanovi ==========*/
+
+
+
+
+.clanovi{
+    overflow: hidden;
+    padding: 10px 10px 10px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.clanovi img{
+    left: 10px;
+    margin-left: -10px;
+    position: relative;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.slika-clan{
+    height: 240px;
+    width: 240px;
+}
+
+.slika-clan img{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.clanovi:hover{
+    background-image: url(../img/bgimg.jpg);
+    box-shadow: 0 0 5px #ddd;
+    opacity: 1;
+}
+
+.clanovi:hover img{
+    -webkit-transform: scale(1.2) rotate(2deg);
+    -moz-transform: scale(1.2) rotate(2deg);
+    -o-transform: scale(1.2) rotate(2deg);
+    -ms-transform: scale(1.2) rotate(2deg);
+    transform: scale(1.2) rotate(2deg);
+}
+
+.img-naslovna{
+    height: 400px;
+    width: 400px;
+}
+
+
+/*======= Naslov =======*/
+
+
+.naslov{
+    display: block;
+    margin: 10px 0 25px 0;
+    border-bottom: 1px dotted #ddd;
+}
+
+.naslov h1, .naslov h2, .naslov h3, .naslov h4{
+    border-bottom: 2px solid #39a9e0;
+    margin: 0 0 -2px 0;
+    padding-bottom: 9px;
+    display: inline-block;
+}
+
+/*===== Foto album =====*/
+
+
+.foto-album{
+    display: inline-block;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.foto-album > a > img{
+    margin-bottom: 15px;
+}
+
+.foto-album:hover{
+    opacity: 1;
+}
+
+@media (min-width: 768px){
+    .foto-album{
+        min-height: 305px;
+    }
+}
+
+@media (min-width: 992px){
+    .foto-album{
+        min-height: 225px;
+    }
+
+    .album-slike{
+        min-height: 220px;
+    }
+}
+
+@media (min-width: 1200px){
+    .foto-album{
+        min-height: 270px;
+    }
+
+    .album-slike{
+        min-height: 250px;
+    }
+}
+
+
+
+
+/*======== Footer ========*/
+
+.footer{
+    color: #dadada;
+    background-color: #585f69;
+    padding: 20px 0 20px;
+    border-top: 2px solid #39a9e0;
+    margin-top: 50px;
+}
+
+.copyright{
+    font-size: 12px;
+    padding: 11px 0 7px;
+    background: #3e4753;
+    border-top: solid 1px #777;
+    color: #dadada;
+}
+
+.copyright a{
+    color: #39a9e0;
+}
+
+.copyright img.pull-right{
+    width: 100px;
+    height: 50px;
+}
+
+
+
+/*====== Pirot ========*/
+
+.pirot-naslov{
+    padding: 15px 0 15px; 
+    background-color: #39a9e0; 
+    font-size: 20px; 
+    text-align: center; 
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color: #eeeeee;
+}
+
+.pirot-podnaslov{
+    padding: 5px 0 5px; 
+    background-color: #39a9e0; 
+    font-size: 15px; 
+    text-align: center; 
+    margin-bottom: 10px;
+    color: #eeeeee;
+}
+
+.pirot-tabela{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pirot-tabela>tbody>tr>td{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+}
+
+.pirot-tabela>tbody>tr.info>td{
+    background-color: #d9edf7;
+}
+
+
+/*====== Navbar =======*/
+
+
+
+.rac-navbar{
+    background-color: #fafafa;
+    color: #f7f7f7;
+    font-size: 16px;
+    border-bottom: 1px solid #428bca;
+}
+
+.rac-navbar .active{
+    background-color: #eeeeee;
+}
+
+.dropdown-menu li a{
+    font-size: 16px;
+    color: #428bca;
+    padding: 15px 20px;
+    display: block;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #e7e7e7;
+    background-image: linear-gradient(to bottom, #e7e7e7 0, #e7e7e7 100%);
+    color: #2a6496;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover{
+    background-color: #e7e7e7;
+    background-image: linear-gradient(to bottom, #e7e7e7 0, #e7e7e7 100%);
+    color: #2a6496;
+}
+
+.rac-navbar .navbar-toggle{
+    border-color: #428bca;
+}
+
+.rac-navbar .navbar-toggle:hover,
+.rac-navbar .navbar-toggle:focus{
+    background-color: #e7e7e7;
+}
+
+.rac-navbar .icon-bar{
+    background-color: #428bca;
+}
+
+.rac-navbar .navbar-brand{
+    padding: 7px 7px 7px 15px;
+}
+
+
+
+/*===== Stop spambots ========*/
+
+.special {
+    display:none;
+}

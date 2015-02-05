@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Rotaract Club Pirot - Kontakt</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/pace/index.css">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="js/pace/pace.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="navbar navbar-fixed-top rac-navbar" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img alt="Početna" id="logo" src="img/grb.png">
+                    </a>                    
+                </div>
+                <!--/.navbar-collapse -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-rotaract-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">O Nama <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="istorija.html">Istorija</a></li>
+                                <li><a href="clanovi.html">Članovi</a></li>
+                                <li><a href="foto.html">Fotografije</a></li>
+                                <li><a href="pirot.html">Pirot</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="akcije.html">Akcije</a></li>
+                        <li class="active"><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header"><span class="glyphicon glyphicon-phone-alt"></span> Kontakt <small>Kako najlakše doći do nas?</small></h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <iframe frameborder="0" style="border:0; width: 100%; height: 450px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1455.1104710024442!2d22.58942350923623!3d43.16288622189059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47553d32935e627b%3A0xaefd39274be87d1d!2sHotel+Sin-Kom!5e0!3m2!1sen!2sus!4v1412941598143&zoom=19"></iframe>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-8">
+                    <div class="naslov">
+                        <h3>Kontaktirajte nas!</h3>
+                    </div>
+                    <p>Ovde nam možete poslati Vaše ideje, sugestije, primedbe, zamerke, predloge kako bismo unapredili naš rad u interesu svih nas. Budite slobodni i kontaktirajte nas.</p>
+                    <form id="contact_form" role="form" method="POST" action="bin/contact_me.php">
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label for="input1">Ime<span style="color: red;"> *</span></label>
+                                <input type="text" name="contact_name" class="form-control" id="input1" required placeholder="npr. Marko Marković">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label for="input2">Email Adresa<span style="color: red;"> *</span></label>
+                                <input type="email" name="contact_email" class="form-control" id="input2" required placeholder="npr. ime@example.com">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label for="input4">Poruka<span style="color: red;"> *</span></label>
+                                <textarea name="contact_message" class="form-control" rows="6" id="input4" style="max-width: 100%; min-height: 100%;" required placeholder="Vaša poruka..." maxlength="999"></textarea>
+                                <span style="color: #999;">Polja označena sa <span style="color: red;">*</span> su obavezna</span>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input class="special" name="info" type="text" />
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="submit" class="btn btn-primary">Pošalji</button>
+                                <input type="reset" class="btn btn-danger" title="Poništi" name="Poništi" value="Poništi">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-sm-4" style="border-left: 2px solid #39a9e0; background-color: #f7f7f7;">
+                    <h3>Rotaract Club Pirot</h3>
+                    <p><i class="fa fa-home"></i> Hotel Sin-Kom <br>Nikole Pašića bb <br> 18300 Pirot, Srbija</p>
+                    <p><i class="fa fa-clock-o"></i> Utorak: 19:00 - 20:00 H</p>
+                    <ul class="list-unstyled list-inline list-social-icons">
+                        <li class="tooltip-social facebook-link">
+                            <a href="https://www.facebook.com/rotaract.pirot?fref=ts" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank">
+                                <i class="fa fa-facebook-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="tooltip-social twitter-link">
+                            <a href="https://twitter.com/RotaractPirot" data-toggle="tooltip" data-placement="top" title="Twitter" target="_blank">
+                                <i class="fa fa-twitter-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="tooltip-social google-plus-link">
+                            <a href="mailto:rac.pirot@yahoo.com" data-toggle="tooltip" data-placement="top" title="Mail">
+                                <i class="fa fa-envelope fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <!--======= Footer =======-->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <ul class="nav nav-pills pull-right">
+                        <li><a href="index.html">Početna</a></li>
+                        <li><a href="istorija.html">Istorija</a></li>
+                        <li><a href="clanovi.html">Članovi</a></li>
+                        <li><a href="foto.html">Fotografije</a></li>
+                        <li><a href="pirot.html">Pirot</a></li>
+                        <li><a href="akcije.html">Akcije</a></li>
+                        <li class="active"><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--====== End of footer =======-->
+
+        <!--====== Copyright =======-->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        &copy; Rotaract Club Pirot 2014. Sva prava zadržana.
+                        <a href="mapa_sajta.html">Mapa sajta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End of copyright ======-->
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!--Contact-->
+
+        <script src="js/contact/jqBootstrapValidation.js"></script>
+        <script src="js/contact/contact_me.js"></script>
+
+        <!--Scroll to top-->
+
+        <script src="js/back-to-top.js"></script>
+        <div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer;">
+            <img src="img/up.png" style="width:51px; height:42px" alt="Na vrh">
+        </div>
+    </body>
+</html>
